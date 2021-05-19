@@ -22,13 +22,13 @@
 
   <meta name="description" content="AV.initialize(&quot;kBWRWPW53AoR65inkPVPm2MA-gzGzoHsz&quot;, &quot;scEzVR4s9NeFXJbwCzbr5nfD&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
 <meta property="og:type" content="website">
-<meta property="og:title" content="top">
+<meta property="og:title" content="排行榜">
 <meta property="og:url" content="http://imroots.github.io/top/index.html">
 <meta property="og:site_name" content="青文小舍">
 <meta property="og:description" content="AV.initialize(&quot;kBWRWPW53AoR65inkPVPm2MA-gzGzoHsz&quot;, &quot;scEzVR4s9NeFXJbwCzbr5nfD&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-04-12T07:43:35.000Z">
-<meta property="article:modified_time" content="2021-05-06T09:15:29.406Z">
+<meta property="article:modified_time" content="2021-05-19T09:18:31.233Z">
 <meta property="article:author" content="源の斌">
 <meta name="twitter:card" content="summary">
 
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>top | 青文小舍
+  <title>排行榜 | 青文小舍
 </title>
   
 
@@ -220,7 +220,7 @@
     <div class="post-block" lang="zh-CN">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">top
+<h1 class="post-title" itemprop="name headline">排行榜
 </h1>
 
 <div class="post-meta">
@@ -391,53 +391,22 @@
   </span>
   <span class="author" itemprop="copyrightHolder">源の斌</span>
 </div>
-
-<span id="sitetime"></span>
-<script language=javascript>
-function siteTime(){
-window.setTimeout("siteTime()", 1000);
-var seconds = 1000;
-var minutes = seconds * 60;
-var hours = minutes * 60;
-var days = hours * 24;
-var years = days * 365;
-var today = new Date();
-var todayYear = today.getFullYear();
-var todayMonth = today.getMonth()+1;
-var todayDate = today.getDate();
-var todayHour = today.getHours();
-var todayMinute = today.getMinutes();
-var todaySecond = today.getSeconds();
-/*
-
-   Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
-
-   year - 作为date对象的年份，为4位年份值
-
-   month - 0-11之间的整数，做为date对象的月份
-
-   day - 1-31之间的整数，做为date对象的天数
-
-   hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
-
-   minutes - 0-59之间的整数，做为date对象的分钟数
-
-   seconds - 0-59之间的整数，做为date对象的秒数
-
-   microseconds - 0-999之间的整数，做为date对象的毫秒数
-
-   */
-var t1 = Date.UTC(2018,03,17,17,20,00); //北京时间2018-2-13 00:00:00
-var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
-var diff = t2-t1;
-var diffYears = Math.floor(diff/years);
-var diffDays = Math.floor((diff/days)-diffYears*365);
-var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
-var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
-var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-document.getElementById("sitetime").innerHTML=" 遇见"+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
-}
-siteTime();
+<span id="timeDate" ></span><span id="times"></span>
+<script>
+  var now = new Date(); 
+  function createtime() { 
+      var grt= new Date("03/17/2018 17:20:00");//此处修改你的建站时间或者网站上线时间 
+      now.setTime(now.getTime()+250); 
+      days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+      hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+      if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+      mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+      seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+      snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+      document.getElementById("timeDate").innerHTML = "遇见"+dnum+" 天 "; 
+      document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+  } 
+setInterval("createtime()",250);
 </script>
         
 <div class="busuanzi-count">
