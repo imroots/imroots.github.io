@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on 上下左右</title>
+    <link>http://imroots.vercel.app/categories/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on 上下左右</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>imroots@163.com (王上下)</managingEditor>
+    <webMaster>imroots@163.com (王上下)</webMaster>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://imroots.vercel.app/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>站点搭建</title>
+      <link>http://imroots.vercel.app/%E5%B0%8F%E7%AB%99%E7%9A%84%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      <author>imroots@163.com (王上下)</author>
+      <guid>http://imroots.vercel.app/%E5%B0%8F%E7%AB%99%E7%9A%84%E6%90%AD%E5%BB%BA/</guid>
+      <description>折腾捣鼓的小九九，最终白嫖的情况下搭建方案 github 注册建仓 仓库：imroots/imroots.github.io waline评论仓库：imroo</description>
+    </item>
+    
+  </channel>
+</rss>
