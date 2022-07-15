@@ -6,22 +6,67 @@
     <description>Recent content in Categories on 上下左右</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://imroots.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 09:25:00 +0000</lastBuildDate><atom:link href="https://imroots.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>随笔</title>
-      <link>https://imroots.vercel.app/categories/%E9%9A%8F%E7%AC%94/</link>
-      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      <title>杂记</title>
+      <link>https://imroots.vercel.app/categories/%E6%9D%82%E8%AE%B0/</link>
+      <pubDate>Wed, 12 Jan 2022 09:25:00 +0000</pubDate>
       
-      <guid>https://imroots.vercel.app/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://imroots.vercel.app/categories/%E6%9D%82%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>建站</title>
-      <link>https://imroots.vercel.app/categories/%E5%BB%BA%E7%AB%99/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      <title>溪语录</title>
+      <link>https://imroots.vercel.app/categories/%E6%BA%AA%E8%AF%AD%E5%BD%95/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://imroots.vercel.app/categories/%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://imroots.vercel.app/categories/%E6%BA%AA%E8%AF%AD%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>游记</title>
+      <link>https://imroots.vercel.app/categories/%E6%B8%B8%E8%AE%B0/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://imroots.vercel.app/categories/%E6%B8%B8%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>美食</title>
+      <link>https://imroots.vercel.app/categories/%E7%BE%8E%E9%A3%9F/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://imroots.vercel.app/categories/%E7%BE%8E%E9%A3%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>源笔记</title>
+      <link>https://imroots.vercel.app/categories/%E6%BA%90%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:10 +0000</pubDate>
+      
+      <guid>https://imroots.vercel.app/categories/%E6%BA%90%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>鲸鱼肚子的避难所</title>
+      <link>https://imroots.vercel.app/categories/%E9%B2%B8%E9%B1%BC%E8%82%9A%E5%AD%90%E7%9A%84%E9%81%BF%E9%9A%BE%E6%89%80/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://imroots.vercel.app/categories/%E9%B2%B8%E9%B1%BC%E8%82%9A%E5%AD%90%E7%9A%84%E9%81%BF%E9%9A%BE%E6%89%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>星夜集</title>
+      <link>https://imroots.vercel.app/categories/%E6%98%9F%E5%A4%9C%E9%9B%86/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imroots.vercel.app/categories/%E6%98%9F%E5%A4%9C%E9%9B%86/</guid>
       <description></description>
     </item>
     
