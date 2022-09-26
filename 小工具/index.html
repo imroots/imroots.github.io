@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>小工具s - 上下左右</title>
-    <meta property="og:title" content="小工具s - 上下左右">
+    <title>code - 上下左右</title>
+    <meta property="og:title" content="code - 上下左右">
     
     <meta name="twitter:card" content="summary">
     <meta name="referrer" content="never" />
@@ -32,9 +32,12 @@
     
 
     
-    <link href="/%E5%B0%8F%E5%B7%A5%E5%85%B7/index.xml" rel="alternate" type="application/rss+xml" title="上下左右" />
     
-    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
@@ -48,17 +51,31 @@
 
 <p class="tagline">醉后不知天在水 满船清梦压星河</p>
 
-      
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/content/%E5%B0%8F%E5%B7%A5%E5%85%B7/e.html">小工具</a></li>
+  
+  
+  </ul>
+</nav>
 
     </header>
     
     <article class="main">
       <header class="title">
       
-<h1>小工具s</h1>
+<h1>code</h1>
 
 <h3>
-</h3>
+  2022-09-19</h3>
 <hr>
 
 
@@ -67,32 +84,153 @@
       </header>
 
 
+   
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+<pre><code>	&lt;title&gt;&lt;/title&gt;
+	&lt;style&gt;
+		/* 小屏幕手机端 */
+		@media (min-width: 0px) and (max-width:768px) {
+			.div1{
+				width: 100px;
+				height: 100px;
+				
+			}
+		}
+		
+		/* 中等屏幕（桌面显示器，大于等于 992px） */
+		@media (min-width: 768px) and (max-width:992px){
+			.div1{
+				width: 300px;
+				height: 300px;
+				background-color: blue;
+			}
+		}
+		
+		/* 大屏幕（大桌面显示器，大于等于 1200px） */
+		@media (min-width: 992px) {
+			.div1{
+				width: 500px;
+				height: 500px;
+				background-color: aqua;
+			}
+		}
+        body{position:fixed;
+                top: 0;
+                left: 0;
+	            width:393px;
+	            height:100%;
+                min-width: 1000px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size: cover;
+                background-position: center 0;
+            background-image: url(https://s2.loli.net/2022/09/21/FUDqpHS5fTlXgMP.jpg);
+            /*background-image: url(https://s2.loli.net/2022/09/21/pmoW3qD2vnsf85A.jpg);*/
+        }
+        .d{
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            position: absolute;
+            top: 100px;
+            left: 23px;   
+        }
+        .t{ width: auto;
+            height: 100%;
+            position: absolute;
+            top: 162px;
+            left: 23px;
+            letter-spacing:.1px;
+            font-size: 19px;
+            font-weight:bolder;
+        }
+        .i{
+
+        background-color:transparent;border:0;
+        font-size: 23px;
+        font-weight:700;
+        }
+        .i2{
+
+        background-color:transparent;border:0;
+        font-size: 19px;
+        font-weight:500;
+         }
+        .add{
+            background-color:transparent;border:0;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            position: absolute;
+            bottom: 105px;
+            left: 270px;
+        }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div &gt;
+        &lt;div class=&quot;d&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;i&quot; list=&quot;cours&quot;&gt;
+            &lt;datalist id=&quot;cours&quot;&gt;
+                &lt;option&gt;永利国际金融中心&lt;/option&gt;
+                &lt;option&gt;南窑头社区东区&lt;/option&gt;
+                &lt;option&gt;亲爱的小家&lt;/option&gt;
+                &lt;option&gt;小可爱&lt;/option&gt;
+            &lt;/datalist&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+	
+    &lt;script&gt;
+        Date.prototype.format = function (fmt) {
+            var o = {
+                &quot;y+&quot;: this.getFullYear, //年
+                &quot;M+&quot;: this.getMonth() + 1, //月份
+                &quot;d+&quot;: this.getDate(), //日
+                &quot;h+&quot;: this.getHours(), //小时
+                &quot;m+&quot;: this.getMinutes(), //分
+                &quot;s+&quot;: &quot;11&quot; //秒
+            };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + &quot;&quot;).substr(4 - RegExp.$1.length));
+            for (var k in o)
+                if (new RegExp(&quot;(&quot; + k + &quot;)&quot;).test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : ((&quot;00&quot; + o[k]).substr((&quot;&quot; + o[k]).length)));
+            return fmt;
+        }
+        setInterval(&quot;document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-MM-dd hh:mm:ss');&quot;, 1000);
+    &lt;/script&gt;
+ 
+    &lt;div id=&quot;dateTime&quot; class=&quot;t&quot;&gt;&lt;/div&gt;
+    &lt;button onclick=&quot;window.location.href='xc.html'&quot; type=&quot;button&quot; class=&quot;add&quot;&gt;&lt;/button&gt;
+   
+&lt;/body&gt;
+</code></pre>
+</html>
 
 
-
-
-
-<ul>
-  
-  <li>
-    <span class="date">0001/01/01</span>
-    <a href="/%E5%B0%8F%E5%B7%A5%E5%85%B7/code/"></a>
-  </li>
-  
-</ul>
+<a href="javascript:history.back(-1)">上一级</a> 
 
   <footer>
   
-<nav class="post-nav">
-  <span class="nav-next"></span>
-  <span class="nav-prev"></span>
   
-</nav>
 
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
   <hr>
-  
-
-  
   <div class="copyright">© <a href="https://imroots.github.io">王上下</a> | @2018 - 2022</div>
   
   </footer>
