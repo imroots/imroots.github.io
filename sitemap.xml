@@ -2,10 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://imroots.github.io/categories/</loc>
+    <loc>https://imroots.github.io/posts/2018/03/%E6%BA%AA%E8%AF%AD%E5%BD%95/</loc>
+    <lastmod>2018-03-17T17:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://imroots.github.io/tags/</loc>
+    <loc>https://imroots.github.io/posts/2020/02/%E9%B2%B8%E9%B1%BC%E8%82%9A%E5%AD%90%E7%9A%84%E9%81%BF%E9%9A%BE%E6%89%80/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/2020/02/%E6%BA%90%E8%AE%A1%E5%88%92%E4%B9%8B%E8%8D%92%E9%87%8E%E6%B1%87%E6%80%BB/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/categories/</loc>
+    <lastmod>2022-09-19T16:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/</loc>
+    <lastmod>2022-09-19T16:25:00+00:00</lastmod>
   </url><url>
     <loc>https://imroots.github.io/</loc>
+    <lastmod>2022-09-19T16:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/2022/09/%E8%83%96%E4%BA%86/</loc>
+    <lastmod>2022-09-19T16:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2022-09-19T16:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/2020/10/%E7%BE%8E%E9%A3%9F/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/tags/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/categories/%E8%AF%97%E8%AF%8D%E9%9B%86/</loc>
+    <lastmod>2018-03-17T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/2015/10/%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2015-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://imroots.github.io/posts/1/01/%E6%98%9F%E5%A4%9C%E9%9B%86/</loc>
   </url>
 </urlset>

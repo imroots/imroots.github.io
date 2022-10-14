@@ -5,6 +5,34 @@
     <link>https://imroots.github.io/categories/</link>
     <description>Recent content in Categories on 上下左右</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://imroots.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Sep 2022 16:25:00 +0000</lastBuildDate><atom:link href="https://imroots.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随笔</title>
+      <link>https://imroots.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Mon, 19 Sep 2022 16:25:00 +0000</pubDate>
+      
+      <guid>https://imroots.github.io/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>小说</title>
+      <link>https://imroots.github.io/categories/%E5%B0%8F%E8%AF%B4/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://imroots.github.io/categories/%E5%B0%8F%E8%AF%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>诗词集</title>
+      <link>https://imroots.github.io/categories/%E8%AF%97%E8%AF%8D%E9%9B%86/</link>
+      <pubDate>Sat, 17 Mar 2018 17:20:00 +0000</pubDate>
+      
+      <guid>https://imroots.github.io/categories/%E8%AF%97%E8%AF%8D%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
